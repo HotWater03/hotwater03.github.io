@@ -1,0 +1,261 @@
+body{
+	margin: 0px ;
+	}
+
+.frame{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.above{
+	width: 100%;
+	height: 211px;
+	background-color: #A6D6E9;
+	position: relative;
+}
+.logo{
+	width: 176px;
+	height: 176px;
+	float: left;
+	left: 50px;
+	background-image: url('../ing/logo.png');
+	background-size: cover;
+	background-position: center;
+}
+.buttons{
+	width: 100px;
+	height: 56px;
+	float: left;
+	font-size: 25px;
+	color: #036EB6;
+}
+.logo, .buttons{
+	position: absolute;
+	bottom: 15px;
+}
+.above .buttons1{
+	right: 670px;
+}
+.above .buttons2{
+	right: 540px;
+}
+.above .buttons3{
+	right: 410px;
+}
+.above .buttons4{
+	right: 280px;
+}
+.above .buttons5{
+	right: 180px;
+}
+.above .buttons6{
+	right: 50px;
+}
+.above a{
+	text-decoration: none;
+}
+.abousel-us h3{
+	font-size: 40px;
+	color: #036EB6;
+	padding: 20px;
+}
+.abousel-us p{
+	font-size: 30px;
+	padding: 20px;
+}
+.carousel{
+	width: 100%;
+	height: 400px;
+	animation: ani1 10s infinite;
+}
+.fives{
+	width: 100%;
+	height: 401px;
+}
+.fives .daily-sentence{
+	width: 49%;
+	float: left;
+}
+.fives .daily-sentence h3{
+	font-size: 40px;
+	padding: 20px;
+	color: #036EB6;
+}
+.fives .daily-sentence p{
+	font-size: 32px;
+	padding: 20px;
+}
+.fives .messade-board{
+	width: 50%;
+	height: 400px;
+	float: right;
+	background-image: url('../ing/messade-board.png');
+	background-size: cover;
+}
+.in{
+	width: 100%;
+	height: 128px;
+	background-color: #A6D6E9;
+}
+.in h1{
+	font-size: 40px;
+	color: #036EB6;
+	padding: 20px;
+}
+.content{
+	font-size: 30px;
+	padding: 20px;
+}
+.connection{
+	width: 100%;
+	height: 500px;
+	background-color: #A6D6E9;
+}
+.contact-us hr{
+	display: none;
+}
+.connection h2{
+	font-size: 40px;
+	color: #036EB6;
+	padding: 20px;
+}
+.connection p{
+	font-size: 35px;
+	padding: 20px;
+}
+@keyframes ani1{
+	0%{
+		background-image: url('../ing/amx-01.jpg')
+	}
+	50%{
+		background-image: url('../ing/amx-02.jpg')
+	}
+	100%{
+		background-image: url('../ing/amx-03.jpg')
+	}
+}
+
+@media screen and (max-width: 414px) {
+		.above{
+			height: 100px;
+			position: relative;
+	}
+		.coll{
+			width: 50px;
+			height: 50px;
+			border: 1px solid;
+			position: absolute;
+			left: 20px;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+		.coll .line{
+			width: 40px;
+			height: 5px;
+			border: 1px solid;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			position: absolute;
+			transition-duration: 0.5s;
+		}
+		.coll .line:nth-child(1) {
+			top: 25%;
+		}
+		.coll .line:nth-child(3) {
+			top: 75%;
+		}
+
+		.coll.active .line:nth-child(1) {
+			top: 50%;
+			transform: translate(-50%, -50%) rotate(45deg);
+		}
+
+		.coll.active .line:nth-child(2) {
+			opacity: 0;
+		}
+
+		.coll.active .line:nth-child(3) {
+			top: 50%;
+			transform: translate(-50%, -50%) rotate(-45deg);
+		}
+		.menu{
+		width: 282px;
+		height: 233px;
+		background-color: #A7D7EA;
+		position: absolute;
+    	top: 80px;
+    	display: none;
+	}
+
+	.menu.active{
+		
+    	display: block;
+	}
+		.menu .logo{
+		width: 55.68px;
+		height: 55.68px;
+		background-image: url('../ing/logo.png');
+		background-size: cover;
+		background-position: center;
+		position: absolute;
+		bottom: 10px;
+		left: 214px;
+	}
+		.menu .box{
+		width: 170px;
+		height: 69px;
+		background-color: #A7D7EA;
+		margin-left: auto;
+		margin-right: auto;
+		justify-content: center;
+		align-content: center;
+		padding-top: 50px;
+	}
+		.buttons{
+		width: 79px;
+		height: 33.51px;
+		background-color: #EFEFEF;
+		border-radius: 10px;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		line-height: 33.51px;
+		position: static; 
+		font-size: 12px;
+		margin: 2px;
+	}
+		.buttons a{
+		text-decoration: none;
+	}
+		.fives{
+		width: 414px;
+		height: 801px;
+	}
+		.fives .daily-sentence{
+		width: 100%;
+		height: 400px;
+	}
+		.fives .messade-board{
+		width: 100%;
+		height: 400px;
+	}
+		.in{
+		height: 73.97px;
+	}
+		.in h1{
+		font-size: 30px;
+	}
+		.connection{
+		height: 62px;
+	}
+		.contact-us hr{
+		color: #036EB6;
+	}
+		.contact-us h2{
+		font-size: 25px;
+	}
+		.contact-us p{
+		font-size: 20px;
+	}
+}

@@ -1,12 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" href="style/2018-05-15-開心的根源.css">
 </head>
 <body>
-    123
+	<div class="frame">
+		<div class="above">
+			<div class="coll" id="coll">
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+			</div>
+			<div class="menu" id="menu">
+				<div class="logo"></div>
+					<div class="box" id="box">
+					<div class="buttons buttons1"><a href="#butt1">關於我們</a></div>
+					<div class="buttons buttons2"><a href="#butt2">輕鬆一下</a></div>
+					<div class="buttons buttons3"><a href="#butt3">每日一句</a></div>
+					<div class="buttons buttons4"><a href="#butt4">留言板</a></div>
+					<div class="buttons buttons5"><a href="#butt5">該怎麼走</a></div>
+					<div class="buttons buttons6"><a href="#butt6">聯絡我們</a></div>
+					</div>
+			</div>
+			<div class="search"></div>
+		</div>
+		<div class="abousel-us">
+			<h3 id="butt1">關於我們</h3>
+			<p>我在乎別人的感受，當很多人討厭我，我會覺得很難過。如今，我不再糾結於別人的想法，更能讓我開心的是：出自我內心的開心。</p>
+		</div>
+		<div id="butt2" class="carousel"></div>
+		<div class="fives">
+			<div class="daily-sentence">
+				<h3 id="butt3">每日一句</h3>
+				<p>Do not,for one repulse,give up the purpose that you resolved to effect.不要只因一次失敗，就放棄你原來決心想達到的目的。</p>
+			</div>
+			<div id="butt4" class="messade-board">
+			</div>
+		</div>
+		<div class="in">
+			<h1 id="butt5">該怎麼走</h1>
+		</div>
+		<div class="content">
+			<p>
+				01‧不要隱藏心裡真正的想法，把自己真的心情顯露出來。
+			</p>
+			<p>
+				02‧壓力大就不要太過於勉強，偶爾讓自己偷懶一下吧！
+			</p>
+			<p>
+				03‧不要因為別人說的話而改變自己的心情，讓自己陷在不高興裡面。
+			</p>
+			<p>
+				04‧將快樂分享給別人，就算是做了一件好事。
+			</p>
+			<p>
+				05‧勇氣給人面對事物的堅強，也給人保持樂觀的態度。
+			</p>
+			<p>
+				06‧保持平靜，讓自己好好的休息一下，暫時把心情放出去飛。
+			</p>
+			<p>
+				07‧過度勞累反而會使心情不佳，讓人增加煩惱。
+			</p>
+			<p>
+				08‧一群研究學者指派大學生做運動，並於隔天追蹤
+			</p>
+			<p>
+				紀錄下他們的情緒變化，有了驚人的發現。
+			</p>
+			<p>
+				經過20分鐘的中度溫和運動後，這群學生的心情
+			</p>
+			<p>
+				明顯比沒運動的控制組好很多。
+			</p>
+			<p>
+				這個假設是根據更之前的發現而定，因此
+			</p>
+			<p>
+				並不令人意外，真正讓他們驚訝的，
+			</p>
+			<p>
+				是這份好心情的持久度。運動組的學生一整天
+			</p>
+			<p>
+				都持續有較好的情緒，可以持續2小時、4小時、8小時、
+			</p>
+			<p>
+				甚至長達12小時。若能在吃早餐之前運動，
+			</p>
+			<p>
+				也能燃燒更多脂肪，並改善葡萄糖耐受度。
+			</p>
+			<p>
+				為接下來的一整天提供更多活力。
+			</p>
+			<p>
+				09‧你可以試著在每天睡前，享受舒服的熱水浴。
+			</p>
+			<p>
+				10‧早上多喝一杯水，反而更能提神！
+			</p>
+		</div>
+		<div class="connection">
+			<div class="contact-us">
+				<hr>
+				<h2 id="butt6">聯絡我們</h2>
+				<p>LINE:fion4102</p>
+				<p>電話:0966850208</p>
+				<p>信箱:kk520300@yahoo.com.tw</p>
+				<div class="top"></div>
+			</div>
+		</div>
+	</div>
+	<script>
+		var ocoll = document.querySelector("#coll");
+		var omenu = document.querySelector("#menu");
+
+		ocoll.onclick = function() {
+			ocoll.classList.toggle("active");
+			omenu.classList.toggle("active");
+		}
+	</script>
 </body>
 </html>
