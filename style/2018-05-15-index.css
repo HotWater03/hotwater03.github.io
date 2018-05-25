@@ -108,7 +108,6 @@ body{
 }
 .connection{
 	width: 100%;
-	height: 500px;
 	background-color: #A6D6E9;
 }
 .contact-us hr{
@@ -122,6 +121,10 @@ body{
 .connection p{
 	font-size: 35px;
 	padding: 20px;
+}
+.app{
+	margin-left: 10px;
+	margin-bottom: 10px;
 }
 @keyframes ani1{
 	0%{
@@ -229,17 +232,16 @@ body{
 		text-decoration: none;
 	}
 		.fives{
-		width: 100%;
+		width: 414px;
 		height: 801px;
 	}
 		.fives .daily-sentence{
 		width: 100%;
+		height: 400px;
 	}
 		.fives .messade-board{
 		width: 100%;
-		height: 250px;
-		background-size: contain;
-    	background-repeat: no-repeat;
+		height: 400px;
 	}
 		.in{
 		height: 73.97px;
